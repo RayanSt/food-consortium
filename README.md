@@ -1,4 +1,4 @@
-# MarketPlace Kyrio's Pizza
+# MarketPlace
 
 _This project is a React application for a marketplace of a fast-food restaurant, this page contains all the business information, also their menu products and it has a cart to order across the WhatsApp API to messange_
 
