@@ -9,7 +9,7 @@ export function NavBar() {
 
   return (
     <ul className="NavBar">
-      <Link to="/">KYRIO'S</Link>
+      <Link to="/">RESTAURANTES</Link>
       <Link to="/domiciles">DOMICILIOS</Link>
       <Link
         to="/domiciles/shopping_card"

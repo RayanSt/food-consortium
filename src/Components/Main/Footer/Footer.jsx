@@ -5,7 +5,7 @@ export function Footer(){
 
     return(
         <footer>
-            <h3>©2022 KYRIO'S PIZZA<br/>Todos los derechos reservados</h3>
+            <h3>Todos los derechos reservados</h3>
         </footer>
     );
 }
