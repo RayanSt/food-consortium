@@ -83,14 +83,7 @@ export function ShoppingCart() {
   };
   return (
     <div className="containerCart">
-      <div className="infoCart">
-        <div className="logoCart">
-          <img
-            src="https://drive.google.com/uc?export=download&id=1qynz1kaVgJnrVVASKH2eKCslhoTuSBK_"
-            alt="logo"
-          />
-        </div>
-      </div>
+      
       <div className="titleCart">
         <h2>Carrito de compras</h2>
         <h3>
