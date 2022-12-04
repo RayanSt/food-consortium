@@ -10,15 +10,15 @@ a,button{
 }
 
 :root{
-  --colorButtonCarousel:#370407;
-  --colorDivInfo:#f8f3a499;
+  --colorButtonCarousel:#807a2a;
+  --colorDivInfo:#444801;
   --colorNavWhite:#f6f5f5;
   --colorOldRed:#6e080e;
-  --colorOrange:#dc6a10;
-  --colorRed:#dc101c;
+  --colorOrange:#91491a;
+  --colorRed:#ae7a47;
   --colorTextBlack:#140000;
   --colorTextWhite:#feedee;
-  --colorYellow:#dcd010;
+  --colorYellow:#eadac0;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Open+Sans:wght@600&display=swap');
