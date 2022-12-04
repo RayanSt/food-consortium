@@ -39,7 +39,7 @@ export function ShoppingCart() {
       "%20"
   );
   const apiMessage =
-    "Hola%20KYRIO's,%0ami%20Nombre%20es:%20*" +
+    "Hola%20,%0ami%20Nombre%20es:%20*" +
     userName +
     "*%0ami%20Número%20de%20celular%20es:%20*" +
     userPhone +
@@ -55,7 +55,7 @@ export function ShoppingCart() {
     "*%0aMensaje%20adicional:%0a_Por favor," +
     userMessage +
     "_%0a*Gracias*";
-  const phoneNumber = 3010000000;
+  const phoneNumber = 3214150446;
   const urlApiWhatsApp =
     "https://api.whatsapp.com/send?phone=57" +
     phoneNumber +
