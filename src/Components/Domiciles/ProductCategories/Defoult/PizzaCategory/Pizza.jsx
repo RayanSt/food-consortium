@@ -41,9 +41,9 @@ export function Pizza() {
           </div>
         </div>
       </div>
-      <div className="pizzasSizesInfo">
+{/*       <div className="pizzasSizesInfo">
           <h2>Disfruta de nuestras pizzas acorde a tus necesidades, recuerde que cada Pizza viene divida en 8 porciones iguales, variando el tamaño de la porción acorde a las equivalencias explicadas anteriormente.</h2>
-      </div>
+      </div> */}
     </>
   );
 }

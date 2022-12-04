@@ -1,6 +1,7 @@
 section.categorySection {
   align-items: center;
-  background: linear-gradient(var(--colorYellow) 10%, var(--colorOrange) 90%);
+/*   background: linear-gradient(var(--colorYellow) 10%, var(--colorOrange) 90%); */
+  background-color: #72502f;
   display: flex;
   flex-direction: column;
   justify-content: center;
