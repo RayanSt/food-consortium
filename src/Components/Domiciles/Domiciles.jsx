@@ -8,12 +8,12 @@ export function Domiciles() {
     <div className="containerDomiciles">
       <Outlet />
       <section className="domicilesMenu">
-        <div className="logoDomiciles">
+{/*         <div className="logoDomiciles">
           <img
             src="https://drive.google.com/uc?export=download&id=1qynz1kaVgJnrVVASKH2eKCslhoTuSBK_"
             alt="logo"
           />
-        </div>
+        </div> */}
         <div className="navDomiciles">
           <NavegationMenu />
         </div>

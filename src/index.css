@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 body, *{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Fredoka One', cursive;
   margin: 0;
   overflow-x: hidden;
   padding: 0;
@@ -11,11 +13,11 @@ a,button{
 
 :root{
   --colorButtonCarousel:#807a2a;
-  --colorDivInfo:#444801;
+  --colorDivInfo:#e1f1cd8c;
   --colorNavWhite:#f6f5f5;
   --colorOldRed:#6e080e;
   --colorOrange:#91491a;
-  --colorRed:#e4dfd8;
+  --colorRed:#b6a041;
   --colorTextBlack:#140000;
   --colorTextWhite:#feedee;
   --colorYellow:#eadac0;

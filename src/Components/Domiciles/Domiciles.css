@@ -1,6 +1,5 @@
 .containerDomiciles {
   align-items: center;
-  background: linear-gradient(var(--colorOrange) 20%, var(--colorYellow) 80%);
   color: var(--colorTextBlack);
   display: flex;
   flex-direction: column;

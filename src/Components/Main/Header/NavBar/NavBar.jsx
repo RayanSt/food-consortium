@@ -10,7 +10,7 @@ export function NavBar() {
   return (
     <ul className="NavBar">
       <Link to="/">RESTAURANTES</Link>
-      <Link to="/domiciles">DOMICILIOS</Link>
+      <Link to="/domiciles">PRODUCTOS</Link>
       <Link
         to="/domiciles/shopping_card"
         style={cart.length > 0 ? { backgroundColor: "red" } : null}
