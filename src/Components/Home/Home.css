@@ -75,6 +75,8 @@
   -webkit-border-radius: 5vh;
   background-color: var(--colorDivInfo);
   border-radius: 5vh;
+  margin-bottom: 5vh;
+  min-width: 100%;
   display: flex;
   flex-direction: column;
   padding: 2vw;

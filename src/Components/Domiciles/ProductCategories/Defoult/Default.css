@@ -77,7 +77,7 @@ section.categorySection
     font-size: 0.9rem;
     padding: 10px;
   }
-  section.categorySection .productsList . .pizzaFullDescription .pizzaInfo h4 {
+  section.categorySection .productsList  .pizzaFullDescription .pizzaInfo h4 {
     font-size: 0.6rem;
   }
 }
@@ -86,7 +86,7 @@ section.categorySection
     font-size: 1.2rem;
     padding: 15px;
   }
-  section.categorySection .productsList . .pizzaFullDescription .pizzaInfo h4 {
+  section.categorySection .productsList  .pizzaFullDescription .pizzaInfo h4 {
     font-size: 0.7rem;
   }
 }
@@ -95,7 +95,7 @@ section.categorySection
     font-size: 1.4rem;
     padding: 20px;
   }
-  section.categorySection .productsList . .pizzaFullDescription .pizzaInfo h4 {
+  section.categorySection .productsList  .pizzaFullDescription .pizzaInfo h4 {
     font-size: 0.8rem;
   }
 }
@@ -104,7 +104,7 @@ section.categorySection
     font-size: 1.6rem;
     padding: 25px;
   }
-  section.categorySection .productsList . .pizzaFullDescription .pizzaInfo h4 {
+  section.categorySection .productsList  .pizzaFullDescription .pizzaInfo h4 {
     font-size: 0.9rem;
   }
 }

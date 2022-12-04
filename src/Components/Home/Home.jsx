@@ -19,22 +19,22 @@ export function Home() {
 
   return (
     <div className="containerHome">
-      <section className="carouselImageHome">
+{/*       <section className="carouselImageHome">
         <div className="imageHome">
           
           <img id="carouselImage" src={carouselImage[image].url} alt="imagen" />
     
         </div>
-      </section>
+      </section> */}
       <section className="socialHome">
-        <div className="logoHome">
+{/*         <div className="logoHome">
           <img
             src="https://drive.google.com/uc?export=download&id=1qynz1kaVgJnrVVASKH2eKCslhoTuSBK_"
             alt="logo"
           />
-        </div>
+        </div> */}
         <div className="storyHome">
-          <h2>Comidas Rapidas Kyrio's Pizza</h2>
+          <h2>Food Consortium</h2>
           <p>
             Bienvenido a nuestro Gran Negocio Familiar, Disfruta de las mejores
             Pizzas y Comidas Rápidas del Sector de San Francisco - La Acacia,
@@ -47,7 +47,7 @@ export function Home() {
           </p>
         </div>
       </section>
-      <section className="contactHome">
+{/*       <section className="contactHome">
         <div className="contactLocation">
           <h2>Visitanos</h2>
           <h3>En la Carrera 19D # 61A - 38 Sur, San Francisco - La Acacia</h3>
@@ -85,7 +85,7 @@ export function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
