@@ -1,0 +1,43 @@
+.buttonAmountChange {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100px;
+}
+.buttonAmountChange button {
+  -moz-border-radius: 50%;
+  -moz-transition: all 1s;
+  -ms-border-radius: 50%;
+  -ms-transition: all 1s;
+  -o-border-radius: 50%;
+  -o-transition: all 1s;
+  -webkit-border-radius: 50%;
+  -webkit-transition: all 1s;
+  align-items: center;
+  background-color: var(--colorOldRed);
+  border-radius: 50%;
+  color: var(--colorNavWhite);
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  justify-content: center;
+  min-height: 30px;
+  min-width: 30px;
+  transition: all 1s;
+}
+.buttonAmountChange button:disabled,
+button.buttonAmountSend:disabled {
+  background-color: var(--colorRed);
+}
+button.buttonAmountSend {
+  align-items: center;
+  background-color: var(--colorOldRed);
+  color: var(--colorNavWhite);
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 700;
+  justify-content: center;
+  padding: 10px;
+  transition: all 1s;
+}

@@ -1,0 +1,110 @@
+section.categorySection {
+  align-items: center;
+  background: linear-gradient(var(--colorYellow) 10%, var(--colorOrange) 90%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 75px;
+  margin-bottom: 5vh;
+  width: 100vw;
+}
+section.categorySection a {
+  background-color: var(--colorRed);
+  color: var(--colorNavWhite);
+  display: flex;
+  margin-top: 2vh;
+  text-decoration: none;
+  padding: 5px;
+}
+section.categorySection a:hover {
+  background-color: var(--colorOldRed);
+}
+section.categorySection .selectCategory {
+  align-items: center;
+  background-color: var(--colorRed);
+  border: solid 5px var(--colorOldRed);
+  color: var(--colorNavWhite);
+  display: flex;
+  height: auto;
+  justify-content: space-evenly;
+  padding: 2vh;
+  text-align: center;
+  width: 100vw;
+  z-index: 3;
+}
+section.categorySection .selectCategory img {
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  height: 15vh;
+  margin-left: 5vw;
+  width: 15vh;
+}
+section.categorySection .productsList {
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+  width: 90%;
+}
+section.categorySection .productsList .pizzaCard:last-child {
+  align-self: flex-end;
+}
+section.categorySection
+  .productsList
+  .pizzaCard:last-child
+  .pizzaFullDescription {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px 0;
+  width: 98%;
+}
+section.categorySection
+  .productsList
+  .pizzaCard:last-child
+  .pizzaFullDescription
+  .pizzaInfo {
+  margin-top: 15px;
+  width: 100%;
+}
+@media (max-width: 480px) {
+  pizzaCard:last-child section.categorySection a {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+  section.categorySection .productsList  .pizzaFullDescription .pizzaInfo h4 {
+    font-size: 0.6rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 769px) {
+  pizzaCard:last-child section.categorySection a {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+  section.categorySection .productsList  .pizzaFullDescription .pizzaInfo h4 {
+    font-size: 0.7rem;
+  }
+}
+@media (min-width: 770px) and (max-width: 993px) {
+  pizzaCard:last-child section.categorySection a {
+    font-size: 1.4rem;
+    padding: 20px;
+  }
+  section.categorySection .productsList  .pizzaFullDescription .pizzaInfo h4 {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 994px) {
+  pizzaCard:last-child section.categorySection a {
+    font-size: 1.6rem;
+    padding: 25px;
+  }
+  section.categorySection .productsList  .pizzaFullDescription .pizzaInfo h4 {
+    font-size: 0.9rem;
+  }
+}

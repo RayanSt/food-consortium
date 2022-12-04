@@ -7,6 +7,7 @@ import { Routes, Route, Navigate, HashRouter } from "react-router-dom";
 import { Main } from "./Components/Main/Main";
 import { Home } from "./Components/Home/Home";
 import { Domiciles } from "./Components/Domiciles/Domiciles";
+import { Restaurants } from "./Components/Restaurant/Restaurant"
 import { Unselect } from "./Components/Domiciles/ProductCategories/Unselect/Unselect";
 import { DefaultCategory } from "./Components/Domiciles/ProductCategories/Defoult/Default";
 import { CategoryPizza } from "./Components/Domiciles/ProductCategories/Defoult/DefaultPizza";
@@ -22,6 +23,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<Main />}>
           <Route path="/" element={<Home />} />
+          <Route path="/restaurantes" element={<Restaurants />} />
           <Route path="/domiciles" element={<Domiciles />}>
             <Route path="/domiciles" element={<Unselect />} />
           </Route>
